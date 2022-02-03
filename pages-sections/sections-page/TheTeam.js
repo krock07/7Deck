@@ -33,6 +33,7 @@ import KS from "assets/img/faces/ks.jpg";
 import DC from "assets/img/faces/dc.jpg";
 import KAM from "assets/img/faces/kam.jpg";
 import ART from "assets/img/faces/art.jpg";
+import JAY from "assets/img/faces/jay.jpg";
 
 import cardProfile2Square from "assets/img/faces/card-profile2-square.jpg";
 import cardProfile4Square from "assets/img/faces/card-profile4-square.jpg";
@@ -277,7 +278,7 @@ export default function SectionTeams({ ...rest }) {
                   <GridItem xs={12} sm={5} md={5}>
                     <CardHeader image plain>
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <img src={cardProfile2Square} alt="..." />
+                        <img src={JAY} alt="..." />
                       </a>
                     </CardHeader>
                   </GridItem>
