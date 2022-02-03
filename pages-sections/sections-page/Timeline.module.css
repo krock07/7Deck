@@ -1,0 +1,81 @@
+.timelineWrapper {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: 300px;
+}
+
+.timelineWrapper .middleLine {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #d9d9d9;
+}
+
+.box {
+  width: 17%;
+  position: relative;
+  min-height: 300px;
+  float: right;
+}
+
+.box .date {
+  position: absolute;
+  top: 50%;
+  left: -125px;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #fff;
+  border: 2px solid #d9d9d9;
+}
+.date > p {
+  text-align: center;
+  /* margin-top: 3px; */
+  /* margin-bottom: 0px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .boxContent {
+  border-radius: 5px;
+  background-color: #985d30;
+  width: 180px;
+  position: absolute;
+  left: -187px;
+  padding: 15px;
+}
+.boxContent p {
+  margin: 0;
+  color: white;
+}
+
+.boxBottom .boxContent {
+  top: 65%;
+}
+
+.boxContent::before {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid transparent;
+}
+
+.boxBottom .boxContent::before {
+  border-bottom-color: #985d30;
+  top: -20px;
+}
+
+.boxTop .boxContent::before {
+  border-top-color: #985d30;
+  bottom: -20px;
+}
+
+/* p {
+  font-family: "Trebuchet MS", sans-serif;
+} */
