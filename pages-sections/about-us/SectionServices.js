@@ -87,7 +87,14 @@ export default function SectionServices() {
             audiences and make their own space.
           </h5>
         </GridItem>
-        <small style={{ fontSize: ".4rem", textAlign: "left" }}>
+        <small
+          style={{
+            fontSize: ".4rem",
+            textAlign: "left",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+          }}
+        >
           *Total addressable market was calculated by using figures from
           Deloitte’s technology report for podcasting and radio markets
           <a href="https://www2.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2020/rise-of-audiobooks-podcast-industry.html">

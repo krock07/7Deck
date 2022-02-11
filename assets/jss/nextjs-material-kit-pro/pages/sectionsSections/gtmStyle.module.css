@@ -8,12 +8,24 @@
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 428px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fill, 100px);
+  }
+}
+
 .box {
   color: #fff;
   border-radius: 5px;
   padding: 10px;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 428px) {
+  .box {
+    font-size: 12px;
+  }
 }
 
 .a {

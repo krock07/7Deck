@@ -5,6 +5,7 @@ import classNames from "classnames";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea2 from "components/InfoArea/InfoArea2.js";
+import InfoArea from "components/InfoArea/InfoArea.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -38,7 +39,7 @@ export default function SectionOffice() {
           >
             <h2
               style={{
-                color: "#fee25d",
+                color: "#fffaf1",
                 textDecoration: "none",
                 fontWeight: "700",
                 marginTop: "30px",
@@ -49,7 +50,7 @@ export default function SectionOffice() {
             >
               Product Experience
             </h2>
-            <small style={{ color: "#fee25d", textDecoration: "none" }}>
+            <small style={{ color: "#fffaf1", textDecoration: "none" }}>
               More organized than Groupme, more user friendly than Discord, and
               more interactive than Clubhouse.
             </small>
@@ -74,7 +75,7 @@ export default function SectionOffice() {
                 src={community}
                 alt="office1"
               />
-              <small style={{ color: "#FEE25D", fontWeight: "bold" }}>
+              <small style={{ color: "#fffaf1", fontWeight: "bold" }}>
                 Easily find, create, and manage your communities.
               </small>
             </div>
@@ -99,7 +100,7 @@ export default function SectionOffice() {
               />
               <small
                 style={{
-                  color: "#FEE25D",
+                  color: "#fffaf1",
                   fontWeight: "bold",
                 }}
               >
@@ -127,7 +128,7 @@ export default function SectionOffice() {
               />
               <small
                 style={{
-                  color: "#FEE25D",
+                  color: "#fffaf1",
                   fontWeight: "bold",
                 }}
               >
@@ -148,7 +149,7 @@ export default function SectionOffice() {
         >
           <h2
             style={{
-              color: "#fee25d",
+              color: "#fffaf1",
               textDecoration: "none",
               fontWeight: "700",
               marginTop: "30px",
@@ -159,7 +160,7 @@ export default function SectionOffice() {
           >
             Progress
           </h2>
-          <small style={{ color: "#FEE25D", fontWeight: "bold" }}>
+          <small style={{ color: "#fffaf1", fontWeight: "bold" }}>
             Raised seed in 2021 to build something people want
           </small>
         </GridItem>
@@ -178,7 +179,6 @@ export default function SectionOffice() {
             description="226% growth in 90 days growing from 500 users in October to 1631 today"
           />
           <InfoArea2
-            // className={classes.descriptionY}
             // icon={ChildFriendly}
             // title="Easy to Use"
             description="• Growing 6% WoW, 14% of total user base actively creates or engages with content on platform weekly
@@ -217,7 +217,10 @@ export default function SectionOffice() {
           />
         </GridItem>
         <GridItem xs={12} sm={6} md={6}>
-          <div className={classes.phoneContainer}>
+          <div
+            className={classes.phoneContainer}
+            style={{ marginTop: "30px", marginBottom: "30px" }}
+          >
             <img src={profile} alt="..." />
           </div>
         </GridItem>

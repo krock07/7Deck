@@ -93,8 +93,8 @@ export default function AboutUsPage() {
       </div>
       <div className={classNames(classes.main1, classes.mainRaised)}>
         <div className={classes.container}>
-          <SectionBlogs />
-          <Gtm />
+          {/* <SectionBlogs /> */}
+          {/* <Gtm /> */}
         </div>
         <div className={classNames(classes.main2, classes.mainRaised)}>
           <div className={classes.container}>

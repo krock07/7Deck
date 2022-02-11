@@ -390,25 +390,25 @@ const main3 = {
   position: "relative",
   zIndex: "3",
 };
-// const mainRaised = {
-//   "@media (max-width: 576px)": {
-//     marginTop: "-30px",
-//   },
-//   "@media (max-width: 830px)": {
-//     marginLeft: "10px",
-//     marginRight: "10px",
-//   },
-//   margin: "-60px 30px 0px",
-//   borderRadius: "6px",
-//   boxShadow:
-//     "0 16px 24px 2px rgba(" +
-//     hexToRgb(blackColor) +
-//     ", 0.14), 0 6px 30px 5px rgba(" +
-//     hexToRgb(blackColor) +
-//     ", 0.12), 0 8px 10px -5px rgba(" +
-//     hexToRgb(blackColor) +
-//     ", 0.2)",
-// };
+const mainRaised = {
+  "@media (max-width: 576px)": {
+    marginTop: "-30px",
+  },
+  "@media (max-width: 830px)": {
+    marginLeft: "10px",
+    marginRight: "10px",
+  },
+  margin: "-60px 30px 0px",
+  borderRadius: "6px",
+  boxShadow:
+    "0 16px 24px 2px rgba(" +
+    hexToRgb(blackColor) +
+    ", 0.14), 0 6px 30px 5px rgba(" +
+    hexToRgb(blackColor) +
+    ", 0.12), 0 8px 10px -5px rgba(" +
+    hexToRgb(blackColor) +
+    ", 0.2)",
+};
 
 const section = {
   backgroundPosition: "50%",
@@ -439,16 +439,16 @@ const lgDescription = {
 };
 
 const description1 = {
-  color: "#057176",
+  color: "#fffaf1",
   overflow: "hidden",
   marginTop: "0px",
   textAlign: "left",
 };
 
 const descriptionY = {
-  color: "#fee25d",
+  color: "#fffaf1",
   overflow: "hidden",
-  marginTop: "5px",
+  marginTop: "15px",
   textAlign: "left",
 };
 const descriptionO = {
@@ -544,7 +544,7 @@ export {
   main,
   main2,
   main3,
-  // mainRaised,
+  mainRaised,
   section,
   sectionDark,
   sectionDescription,

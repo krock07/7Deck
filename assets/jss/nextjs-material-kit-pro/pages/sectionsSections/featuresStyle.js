@@ -29,7 +29,7 @@ const features = {
   features1: {
     textAlign: "center",
     padding: "80px 0",
-    backgroundColor: "#f1efe3",
+    // backgroundColor: "#f1efe3",
   },
   features2: {
     padding: "80px 0",
