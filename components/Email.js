@@ -205,7 +205,7 @@ export default function App() {
               padding: "22px 18px",
             }}
             placeholder="Your E-Mail Address"
-            {...register("exampleRequired", 'validEmail', {
+            {...register("exampleRequired",  {
               required: true,
               pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g,
             })}
