@@ -4,7 +4,7 @@ import classNames from "classnames";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import InfoArea2 from "components/InfoArea/InfoArea2.js";
+import InfoAreaTwo from "components/InfoArea/InfoAreaTwo.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -172,26 +172,26 @@ export default function SectionOffice() {
                 An emphasis on providing the building blocks
               </small> */}
 
-          <InfoArea2
+          <InfoAreaTwo
             // className={classes.descriptionY}
             // icon={Extension}
             title="Here is the proof from public beta since launch in October 2021:"
             description="226% growth in 90 days growing from 500 users in October to 1631 today"
           />
-          <InfoArea2
+          <InfoAreaTwo
             // icon={ChildFriendly}
             // title="Easy to Use"
             description="• Growing 6% WoW, 14% of total user base actively creates or engages with content on platform weekly
           "
           />
-          <InfoArea2
+          <InfoAreaTwo
             className={classes.descriptionY}
             // icon={WatchLater}
             // title="Fast Prototyping"
             description=" • 43% retention rate with users opening app 10 times/week and spending 16 minutes/week 
           "
           />
-          <InfoArea2
+          <InfoAreaTwo
             className={classes.descriptionY}
             // icon={WatchLater}
             // title="Fast Prototyping"
@@ -199,7 +199,7 @@ export default function SectionOffice() {
 
           "
           />
-          <InfoArea2
+          <InfoAreaTwo
             className={classes.descriptionY}
             // icon={WatchLater}
             // title="Fast Prototyping"
@@ -207,7 +207,7 @@ export default function SectionOffice() {
           "
             descriptionY="           ⁃  IG reaching 57.7K accounts and growing by 10.5% in last 90 days"
           />
-          <InfoArea2
+          <InfoAreaTwo
             className={classes.descriptionY}
             // icon={WatchLater}
             // title="Fast Prototyping"
