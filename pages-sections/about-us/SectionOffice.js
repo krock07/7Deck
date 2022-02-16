@@ -39,7 +39,7 @@ export default function SectionOffice() {
           >
             <h2
               style={{
-                color: "#fffaf1",
+                color: "#98503d",
                 textDecoration: "none",
                 fontWeight: "700",
                 marginTop: "30px",
@@ -50,7 +50,7 @@ export default function SectionOffice() {
             >
               Product Experience
             </h2>
-            <small style={{ color: "#fffaf1", textDecoration: "none" }}>
+            <small style={{ color: "#98503d", textDecoration: "none" }}>
               More organized than Groupme, more user friendly than Discord, and
               more interactive than Clubhouse.
             </small>
@@ -75,7 +75,7 @@ export default function SectionOffice() {
                 src={community}
                 alt="office1"
               />
-              <small style={{ color: "#fffaf1", fontWeight: "bold" }}>
+              <small style={{ color: "#98503d", fontWeight: "bold" }}>
                 Easily find, create, and manage your communities.
               </small>
             </div>
@@ -100,7 +100,7 @@ export default function SectionOffice() {
               />
               <small
                 style={{
-                  color: "#fffaf1",
+                  color: "#98503d",
                   fontWeight: "bold",
                 }}
               >
@@ -128,7 +128,7 @@ export default function SectionOffice() {
               />
               <small
                 style={{
-                  color: "#fffaf1",
+                  color: "#98503d",
                   fontWeight: "bold",
                 }}
               >
@@ -149,7 +149,7 @@ export default function SectionOffice() {
         >
           <h2
             style={{
-              color: "#fffaf1",
+              color: "#98503d",
               textDecoration: "none",
               fontWeight: "700",
               marginTop: "30px",
@@ -160,7 +160,7 @@ export default function SectionOffice() {
           >
             Progress
           </h2>
-          <small style={{ color: "#fffaf1", fontWeight: "bold" }}>
+          <small style={{ color: "#98503d", fontWeight: "bold" }}>
             Raised seed in 2021 to build something people want
           </small>
         </GridItem>

@@ -446,7 +446,7 @@ const description1 = {
 };
 
 const descriptionY = {
-  color: "#fffaf1",
+  color: "#98503d",
   overflow: "hidden",
   marginTop: "15px",
   textAlign: "left",

@@ -21,6 +21,7 @@ import AttachMoney from "@material-ui/icons/AttachMoney";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
+import InfoAreaTwo from "components/InfoArea/InfoAreaTwo.js";
 import InfoArea3 from "components/InfoArea/InfoArea3.js";
 import InfoArea4 from "components/InfoArea/InfoArea4.js";
 
@@ -35,10 +36,10 @@ const useStyles = makeStyles(featuresStyle);
 export default function SectionFeatures({ ...rest }) {
   const classes = useStyles();
   return (
-    <div className="cd-section" {...rest}>
+    <div className="cd-section" {...rest} style={{marginBottom:'20px'}}>
       <div className={classes.container}>
         {/* Feature 1 START */}
-        <div className={classes.features0}>
+        <div className={classes.features}>
           <GridContainer>
             <GridItem
               xs={12}
@@ -48,7 +49,7 @@ export default function SectionFeatures({ ...rest }) {
             >
               <h2
                 style={{
-                  color: "#fee25d",
+                  color: "#98503d",
                   textDecoration: "none",
                   fontWeight: "700",
                   marginTop: "30px",
@@ -59,7 +60,7 @@ export default function SectionFeatures({ ...rest }) {
               >
                 Fundraising
               </h2>
-              <small style={{ color: "#fee25d", textDecoration: "none" }}>
+              <small style={{ color: "#98503d", textDecoration: "none" }}>
                 $800K SEED extension through a mixture of institutional, angel,
                 and crowdfunding
               </small>
@@ -67,7 +68,7 @@ export default function SectionFeatures({ ...rest }) {
           </GridContainer>
           <GridContainer>
             <GridItem xs={12} sm={4} md={4}>
-              <InfoArea3
+              <InfoAreaTwo
                 vertical
                 title="RAISE FROM VC"
                 description="$550K @ $6M CAP
@@ -75,7 +76,7 @@ export default function SectionFeatures({ ...rest }) {
               />
             </GridItem>
             <GridItem xs={12} sm={4} md={4}>
-              <InfoArea3
+              <InfoAreaTwo
                 vertical
                 title="RAISE FROM CROWDFUNDING
                 "
@@ -83,7 +84,7 @@ export default function SectionFeatures({ ...rest }) {
               />
             </GridItem>
             <GridItem xs={12} sm={4} md={4}>
-              <InfoArea3
+              <InfoAreaTwo
                 vertical
                 icon={Fingerprint}
                 title="PROJECTED CLOSE DATE
