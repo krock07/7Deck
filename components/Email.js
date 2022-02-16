@@ -173,7 +173,7 @@ export default function App() {
   } = useForm();
 
   const onSubmit = () => {
-    Router.push("/");
+    Router.push("/deck");
   };
 
   console.log(watch("example")); // watch input value by passing the name of it

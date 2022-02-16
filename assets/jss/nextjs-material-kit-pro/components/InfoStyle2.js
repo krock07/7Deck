@@ -12,7 +12,7 @@ import {
   descriptionY,
 } from "assets/jss/nextjs-material-kit-pro.js";
 
-const infoStyle = {
+const infoStyle2 = {
   descriptionY,
 
   description1,
@@ -88,4 +88,4 @@ const infoStyle = {
   },
 };
 
-export default infoStyle;
+export default infoStyle2;
