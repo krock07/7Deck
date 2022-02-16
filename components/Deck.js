@@ -121,6 +121,7 @@ export default function AboutUsPage() {
                     href="https://www.pullupon7th.com"
                     className={classes.block}
                     target="_blank"
+                    rel='noreferrer'
                   >
                     7th Ave
                   </a>
@@ -130,7 +131,7 @@ export default function AboutUsPage() {
             <div className={classes.right}>
               &copy; {1900 + new Date().getYear()} , made with{" "}
               <Favorite className={classes.icon} /> by{" "}
-              <a href="https://www.pullupon7th.com" target="_blank">
+              <a href="https://www.pullupon7th.com" target="_blank"  rel='noreferrer'>
                 👋🏾 hands
               </a>{" "}
             </div>
